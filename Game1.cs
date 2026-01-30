@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace MonoTemplate;
+namespace debugging;
 
 public class Game1 : Game
 {

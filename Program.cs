@@ -1,2 +1,2 @@
-﻿using var game = new MonoTemplate.Game1();
+﻿using var game = new debugging.Game1();
 game.Run();
