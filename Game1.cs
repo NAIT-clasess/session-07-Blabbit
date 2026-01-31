@@ -55,8 +55,8 @@ public class Game1 : Game
         Rectangle rect = new Rectangle(
             (int)_position.X,
             (int)_position.Y,
-            (int)_dimensions.Y,
-            (int)_dimensions.X
+            (int)_dimensions.X,
+            (int)_dimensions.Y
         );
 
         _spriteBatch.Draw(_pixel, rect, Color.Black);
@@ -68,11 +68,11 @@ public class Game1 : Game
 
     private void Move(GameTime gameTime)
     {
-        float seconds = (float)gameTime.TotalGameTime.TotalSeconds;
+        float seconds = (float)gameTime.ElapsedGameTime.TotalSeconds;
         _position.X += _speed * seconds;
 
         base.Update(gameTime);
 
-        _position = new Vector2(60f, 80f);
+       // _position = new Vector2(60f, 80f);
     }
 }
