@@ -13,7 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin 458.jpg
+#begin ../../../../png-clipart-the-doraemons-sprite-animation-model-sheet-doraemon-christmas-decoration-cartoon-thumbnail.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -23,7 +23,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:458.jpg;anim1.jpg
+/build:../../../../png-clipart-the-doraemons-sprite-animation-model-sheet-doraemon-christmas-decoration-cartoon-thumbnail.png;Anim1.png
 
 #begin Font.spritefont
 /importer:FontDescriptionImporter

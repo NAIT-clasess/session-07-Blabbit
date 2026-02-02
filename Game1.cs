@@ -93,12 +93,17 @@ namespace AssignmentGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             _spriteBatch.Begin();
-
+            
             // Draw background
             _spriteBatch.Draw(_background, new Rectangle(0, 0, 800, 480), Color.White);
 
             // Draw static sprite
-            _spriteBatch.Draw(_staticImage, _staticPos, Color.White);
+            _spriteBatch.Draw(
+                _staticImage,
+                new Rectangle((int)_staticPos.X, (int)_staticPos.Y, 100, 100), // width/height scaled down
+                 Color.White
+            );
+
 
             // Draw animated sprite
             Rectangle sourceRect = new Rectangle(
