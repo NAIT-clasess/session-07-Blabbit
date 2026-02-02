@@ -1,2 +1,2 @@
-﻿using var game = new debugging.Game1();
+﻿using var game = new AssignmentGame.Game1();
 game.Run();
