@@ -25,12 +25,12 @@
 /processorParam:TextureFormat=Color
 /build:458.jpg;anim1.jpg
 
-#begin Font.spritefont.spritefont
+#begin Font.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:Font.spritefont.spritefont
+/build:Font.spritefont
 
 #begin pixel-desert-landscape-8-bit-game-level-background-vector.jpg
 /importer:TextureImporter
